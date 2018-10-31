@@ -45,6 +45,10 @@
     .inner{margin-top: 50%;}
   }
 
-  @media (min-width: 700px) and (max-width: 1440px){
+  @media (min-width: 700px) and (max-width: 1180px){
     .inner{margin-top: 30%;}
+  }
+
+  @media (min-width: 1181px) and (max-width: 1440px){
+    .inner{margin-top: 20%;}
   }
