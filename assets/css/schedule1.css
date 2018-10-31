@@ -42,13 +42,13 @@
   }
 
   @media (max-width: 600px){
-    .inner{margin-top: 50%;}
+    .inner{margin-top: 4%;}
   }
 
   @media (min-width: 700px) and (max-width: 1180px){
-    .inner{margin-top: 30%;}
+    .inner{margin-top: 5%;}
   }
 
   @media (min-width: 1181px){
-    .inner{margin-top: 20%;}
+    .inner{margin-top: 5%;}
   }
