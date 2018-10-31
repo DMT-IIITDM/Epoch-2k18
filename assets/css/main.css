@@ -744,6 +744,9 @@ body {
 }
 
 .intro {
+	background-image: url(../img/title_bg1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
 	position: relative;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -791,6 +794,8 @@ body {
 .intro--banner {
 	position: relative;
 	height: 200px;
+	background-color: #000;
+	opacity:0.7;
 }
 
 .intro--banner::before {
@@ -1935,3 +1940,19 @@ body {
 	color: rgba(255,255,255,1) !important;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  color: black;
+  width:100%;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+.flex-container a{
+  color: black;
+}
