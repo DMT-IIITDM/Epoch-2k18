@@ -4,11 +4,33 @@
 
 @media (max-width: 1180px) and (min-width: 780px){.EPIC2{height:420px;}}
 
-@media (max-width: 768px) and (min-width: 601px) and (max-height: 680px){.uk-card-media-top{height:331px;} #EPIC{height:305px;}}
+@media (max-width: 768px) and (min-width: 601px) and (max-height: 680px){
+    .about--banner {
+	   position: relative;
+       height: 200px !important;
+       max-width: 100%;
+    } 
+.header a img{margin-top: 0.5rem !important;} .uk-card-media-top{height:331px;} #EPIC{height:305px;}}
 
-@media (max-width: 600px) and (min-width: 400px){.uk-card-media-top{height:330px;} #ROBO{margin-top: -5%;} .EPIC2{height:305px;} }
+@media (max-width: 600px) and (min-width: 400px){
+    .about--banner {
+        margin-top: -50px !important;
+        font-size: 44px !important;
+        position: relative;
+        height: 100px !important;
+        max-width: 100%;
+     } 
+    .header a img{margin-top: 0.2rem !important;} .uk-card-media-top{height:330px;} #ROBO{margin-top: -5%;} .EPIC2{height:305px;} }
 
-@media (max-width: 375px){.uk-card-media-top{height:320px;} #EPIC{height:295px;} .header--nav-toggle{margin-top: -10%;}}
+@media (max-width: 375px){
+    .about--banner {
+        margin-top: -50px !important;
+        font-size: 44px !important;
+        position: relative;
+        height: 100px !important;
+        max-width: 100%;
+     } 
+    .header a img{margin-top: -2rem !important;} .uk-card-media-top{height:320px;} #EPIC{height:295px;} .header--nav-toggle{margin-top: -10%;}}
 
 
 img{cursor: move;}
@@ -521,7 +543,14 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 	text-decoration: none;
-	color: #fff
+    color: #fff;
+    width: 1000px;
+    height: 150px;
+}
+
+.epoch--logo{
+    width: 800px;
+    height: 120px;
 }
 
 .header--logo p {
@@ -901,7 +930,7 @@ body {
 		height: 360px
 	}
 	.intro--banner h1 {
-		font-size: 55px
+		font-size: 44px
 	}
 	.intro--banner img {
 		display: none
@@ -1161,7 +1190,8 @@ body {
 
 .about--banner {
 	position: relative;
-	height: 475px
+    height: 250px;
+    max-width: 100%;
 }
 
 .about--banner::before {
@@ -1190,7 +1220,7 @@ body {
 
 .about--banner h2 {
 	position: relative;
-	margin-top: 35px;
+	margin-top: 10px;
 	font-size: 68px;
 	font-weight: 900;
 	line-height: 1;
@@ -1251,7 +1281,7 @@ body {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	max-width: 600px;
+	max-width: 100%;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
@@ -1263,26 +1293,31 @@ body {
 
 .about--options>a {
 	position: relative;
-	width: 150px;
-	height: 75px;
+	width: 300px;
+	height: 150px;
 	text-decoration: none;
 	color: #fff;
 	border: 10px solid #0f33ff;
 	background-position: center;
-	background-size: cover;
+    background-size: cover;
+    margin: 10px;
 	background-repeat: no-repeat
 }
 
 .about--options>a:nth-child(1) {
-	background-image: url("../img/about-winners.jpg")
+	background-image: url("https://cartype.com/pics/8353/full/bmw_megacity_sketch_13.jpg")
 }
 
 .about--options>a:nth-child(2) {
-	background-image: url("../img/about-philosophy.jpg")
+	background-image: url("https://cdn.vox-cdn.com/thumbor/hV1afrZ-4206btkPmAwIfKmH2IA=/0x0:4942x3532/1570x883/filters:focal(2076x1371:2866x2161):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/61441981/_KartinShop.0.0.1455152859.0.jpg")
 }
 
 .about--options>a:nth-child(3) {
-	background-image: url("../img/about-history.jpg")
+	background-image: url("https://3dprintingindustry.com/wp-content/uploads/2017/11/ANSYS-fluid-dynamics-simulation-software-has-previously-helped-Redbulls-F1-team.-Image-via-ANSYS..jpg")
+}
+
+.about--options>a:nth-child(4) {
+	background-image: url("../img/about-winners.jpg")
 }
 
 .about--options>a:hover h3 {
@@ -1340,7 +1375,7 @@ body {
 	}
 	.about--banner h2 {
 		margin-top: 0;
-		font-size: 55px
+		font-size: 44px;
 	}
 	.about--banner h2::before {
 		top: 43px;
@@ -1354,7 +1389,7 @@ body {
 		display: none
 	}
 	.about--options {
-		display: none
+		display: visible;
 	}
 }
 
@@ -1847,7 +1882,8 @@ body {
 @media (max-width: 600px) {
 	.outer-nav>li {
 		font-size: 34px
-	}
+    }
+    .header a img{}
 }
 
 .outer-nav li.is-vis:nth-child(2) {
