@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Markazi+Text|Raleway');
 
 body {
-    background:#000000/*rgba(240, 235, 215, .5)*/;
+  background-color:black;
+    /*background-image: url(https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=044e5d85cd16e79671287971a06be066&auto=format&fit=crop&w=1950&q=80);*/
+    /*background:linear-gradient(rgb(0,0,0)),(rgb(0,0,0)), url(https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=044e5d85cd16e79671287971a06be066&auto=format&fit=crop&w=1950&q=80);;*/
+    background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif;
   }
   .container {
@@ -23,7 +26,7 @@ body {
     border: white 1px solid;
   }
   .logoa{
-    width: 100%;/*height: 4rem;*/ background-color: white;  left:0; top:0; position: fixed;
+    width: 100%;/*height: 4rem;*/ background-color: black;  left:0; top:0; position: fixed;
     z-index: 10;
   }
 
@@ -54,6 +57,7 @@ body {
     body p{
  margin-top: 7em;
  font-size: 1.3rem;
+ color: antiquewhite;
 }
   }
   @media (min-width: 1000px) {
@@ -68,45 +72,53 @@ body {
   }
   body p{
  margin-top: 7.7em;
+ color: antiquewhite;
 }
 }
   .container #decor{
     background-image: url(https://i.pinimg.com/originals/d4/ed/b2/d4edb2f21491d0735e69da82ed63dd3f.jpg);
+    background-position-y: 5rem;
   }
 
   .container #hospi{
     background-image: url(https://www.ahaworldcampus.com/images/advanced-hospitality-leadership-page.jpg);
     background-size: 120%;
+    background-position-y: 5rem;
   }
 
   .container #pub{
     background-image: url(https://images.unsplash.com/photo-1533094700036-70ecccc6f047?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=33a3a14bdbd4d8badf01cc72e1ad2cd0&auto=format&fit=crop&w=1950&q=80);
     background-size: 225%;
     background-position-x: -9rem;
-    background-position-y: 0rem;
+    background-position-y: 5rem;
   }
 
   .container #spons{
     background-image: url(https://www.americanbar.org/content/dam/aba/images/taxation/sponsorship-spif.jpg);
     background-size: 260%;
     background-position-x: -7rem;
-    background-position-y: 0rem;
+    background-position-y: 5rem;
   }
 
   .container #design{
     background-image: url(https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=452c9055d0f7d7db744fb505f6d7fd68&auto=format&fit=crop&w=1950&q=80);
     background-size: 250%;
+    background-position-y: 5rem;
+
+
   }
 
   .container #informals{
     background-image: url(http://fiber.westnet.ca:81/cbcarticles/images/1.3949781.1485273913!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/beat-the-blues.jpg);
     background-size: 270%;
+    background-position-y: 5rem;
+
   }
 
   .container #qms{
     background-image: url(https://udemy-images.udemy.com/course/240x135/1049210_96f1_2.jpg);
     background-size: 280%;
-    background-position-y: 0rem;
+    background-position-y: 5rem;
     background-position-x: -8rem;
   }
 
@@ -114,12 +126,14 @@ body {
     background-image: url(https://cdn-images-1.medium.com/max/1600/0*R8xAqSnJV8FQqpZd.png);
     background-size: 350%; 
     background-position-x: -1.5rem;
+    background-position-y: 5rem;
+
     
   }
 
   .container #coords{
     background-image: url(https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=044e5d85cd16e79671287971a06be066&auto=format&fit=crop&w=1950&q=80);
-    background-position-y: 0rem;
+    background-position-y: 7rem;
     background-size: 250%;
     background-position-x: -9rem;
   }
