@@ -98,7 +98,7 @@ tr:nth-child(even) {
 	display: inline-block;
 	padding: 1.2rem 2rem;
 	color: rgba(255, 255, 255, 0.7);
-	line-height: 0.8;
+	line-height: 1.2;
   cursor: pointer;
 	background:black;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
