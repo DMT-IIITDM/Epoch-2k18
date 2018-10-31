@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+
+.main-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #191919;
+  }
+  .main-container section {
+    background: #191919;
+    padding-top: 50px;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .main-container section h1 {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    margin-bottom: 50px;
+  }
+  .main-container .schedule {
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 700px;
+    overflow-y: auto;
+  }
+  .main-container .schedule .title-section {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .main-container .schedule .left, .main-container .schedule .right , .main-container .schedule .center {
+    width: 350px;
+    background: #313131;
+    /* height: 100%; */
+    box-shadow: inset 10px 10px 101px -46px rgba(255, 255, 255, 0.2);
+  }
+
+ 
+  .main-container .schedule .left .header1, .main-container .schedule .right .header1, .main-container .schedule .center .header1 {
+    /* padding: 0 20px; */
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+
+  .main-container .schedule-item {
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+    border-left: 2px solid #F8E71C;
+  }
+  .main-container .schedule-item time {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding: 5px 0;
+  }
+  .main-container .schedule-item h3 {
+    padding-top: 8px;
+  }
+  .main-container .schedule-item h5 {
+    padding-top: 4px;
+  }
+  .main-container .schedule .break, .main-container .schedule .lunch {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 380px;
+    position: relative;
+    right: 15px;
+    box-shadow: 2px 2px 21px 0px #1c1c1c;
+    padding: 5px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-container .schedule .break {
+    background-color: #0730A3;
+  }
+  .main-container .schedule .lunch {
+    background-color: #EA3032;
+  }
+  
+ 
