@@ -46,6 +46,12 @@ var Modal = (function() {
         moveTrig(self, modal, div);
       }
     };
+    document.getElementById("cwars").onclick=function(){
+      location.href = "https://docs.google.com/forms/d/e/1FAIpQLSc1IR60L3Rx2cAKaVr0v_FEDuN1yJPYc8eKvp7YJ1AMAuBLAQ/viewform";
+    };
+    document.getElementById("byte").onclick=function(){
+      location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfNAMdYtSooOfBzjipMQDqONm2eLXvih91O-EgZuizErP3tJg/viewform";
+    };
   
     var moveTrig = function(trig, modal, div) {
       var trigProps = trig.getBoundingClientRect();
