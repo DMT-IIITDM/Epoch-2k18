@@ -96,11 +96,11 @@ tr:nth-child(even) {
 	font-size:1.05em;
 	position: relative;
 	display: inline-block;
-	padding: 1.2rem 2.4rem;
-	color: rgba(0,0,0,0.7);
-	line-height: 1;
-	cursor: pointer;
-	background: blueviolet;
+	padding: 1.2rem 2rem;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 0.8;
+  cursor: pointer;
+	background:black;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	-webkit-user-select: none;
@@ -113,7 +113,8 @@ tr:nth-child(even) {
 	z-index: 10;
   }
   .modal__trigger:hover {
-	background: #e5d3d6;
+  background:black;
+  opacity:0.7;
   }
   #modal__temp {
 	will-change: transform, opacity;
@@ -135,7 +136,7 @@ tr:nth-child(even) {
    */
   body {
 	height: 100vh;
-	background-image:url(robotics.jpg);
+	background-image:url(../img/robotics.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -176,7 +177,8 @@ tr:nth-child(even) {
 	font-size: 20px;
   }
   .demo-btns .modal__trigger {
-	margin-right: 3px;
+  margin-right: 3px;
+  margin-top: 5px;
 	}
 	
   @media (max-width: 640px) {
