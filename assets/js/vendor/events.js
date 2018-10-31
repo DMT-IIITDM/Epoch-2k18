@@ -46,12 +46,6 @@ var Modal = (function() {
       moveTrig(self, modal, div);
     }
   };
-  document.getElementById("linef").onclick=function(){
-    location.href = "https://chat.whatsapp.com/L7KpHDVGxx3AFJyO0mxOKN";
-  };
-  document.getElementById("tugofwar").onclick=function(){
-    location.href = "https://chat.whatsapp.com/IGrGVWzGVsb0G7gL3MJmFL";
-  };
 
   var moveTrig = function(trig, modal, div) {
     var trigProps = trig.getBoundingClientRect();
