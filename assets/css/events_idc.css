@@ -27,7 +27,9 @@ tr:nth-child(even) {
 	margin: 0 0 2.4rem 0;
 	}
 	#aowo{
-	color:#fff;
+	color:white;
+	background-color: #4c2719;
+	opacity:0.8;
 	}
   h1,h2,
   h3 {
@@ -136,7 +138,7 @@ tr:nth-child(even) {
    */
   body {
 	height: 100vh;
-	background-image:url(../img/robotics.jpg);
+	background-image:url(../img/idc.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
