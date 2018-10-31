@@ -11,6 +11,8 @@
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
  <link rel="stylesheet" href="assets/css/schedule1.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
 </head>
 
 <body>
@@ -25,148 +27,189 @@
       portrait or find a larger screen. You won't be disappointed.</p>
   </div>
 
-  <div class="perspective effect-rotate-left">
-    <div class="container">
-      <div class="outer-nav--return"></div>
-      <div id="viewport" class="l-viewport">
-        <div class="l-wrapper">
-          <header class="header">
-            <a class="header--logo" href="#0">
-              <img src="assets/img/logo.png" alt="Global">
-              <p>Global</p>
-            </a>
-            <!-- <button class="header--cta cta">Hire Us</button> -->
-            <div class="header--nav-toggle">
-              <span></span>
+<div  style="background-color: black;" class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a href="#"><img src="assets/img/Epoch White.png" style="width:200px;display:inline-flex;margin:1rem 0 0 1rem;"></a>
+          <!-- <button class="header--cta cta">Hire Us</button>  -->
+          <div class="header--nav-toggle" style="margin-left: 80%;">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Events</span></li>
+            <li><span>Workshops</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Hire us</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner" style="background-image: url(assets/img/title_bg.jpg); background-size: 100%; background-repeat: no repeat;" >
+                  
+                  <h1 style="color:white;">EPOCH-2k18</h1>
+                
+                
+               <!--  <button class="cta">Hire Us
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>-->
+                <!--<img src="assets/img/introduction-visual.png" alt="Welcome">-->
+              </div>
+              <div class="intro--options">
+                <h3 style="color:white; text-align: center;">IIITDM Kancheepuram's Intra Technical Fest, Epoch'18 marks the beginning of a period in which the student community will be organizing and involving themselves in an independent technical fest. It opens an opportunity for you to proffer your technical and entrepreneurial skills through this tech extravaganza.<br><br>
+                We have got a range of events to set spark to the innovators in you. It opens an opportunity for you to proffer your technical skills to the institute. Take this chance, be a part, make an impact and find your clique for the upcoming fests.
+                </h3>
+              </div>
             </div>
-          </header>
-          <nav class="l-side-nav">
-            <ul class="side-nav">
-              <li class="is-active"><span>Home</span></li>
-              <li><span>Works</span></li>
-              <li><span>About</span></li>
-              <li><span>Contact</span></li>
-              <li><span>Hire us</span></li>
-            </ul>
-          </nav>
-          <ul class="l-main-content main-content">
-            <li class="l-section section section--is-active">
-              <div class="intro">
-                <div class="intro--banner">
-                  <h1>Your next<br>interactive<br>experience</h1>
-                  <button class="cta">Hire Us
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                        <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
-                      </g>
-                    </svg>
-                    <span class="btn-background"></span>
-                  </button>
-                  <img src="assets/img/introduction-visual.png" alt="Welcome">
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2 style="color:white;">EVENTS</h2>
+              <div uk-slider="clsActivated: uk-transition-active; center: true; finite: false; pause-on-hover: true; autoplay: true; autoplay-interval: 3500;">
+
+    <div class="uk-position-relative uk-visible-toggle uk-light">
+
+        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+            <li>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/Robotics-1.png" id="ROBO" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title" style="font-size: 1.2rem; font-weight: bold;">ROBOTICS CLUB</h3>
+
+
+                      </div>
                 </div>
-                <div class="intro--options">
-                  <a href="#0">
-                    <h3>Metiew &amp; Smith</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                  </a>
-                  <a href="#0">
-                    <h3>Fantasy interactive</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                  </a>
-                  <a href="#0">
-                    <h3>Paul &amp; shark</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                  </a>
-                </div>
-              </div>
             </li>
-            <li class="l-section section">
-              <div class="work">
-                <h2>Selected work</h2>
-                <div class="work--lockup">
-                  <ul class="slider">
-                    <li class="slider--item slider--item-left">
-                      <a href="#0">
-                        <div class="slider--item-image">
-                          <img src="assets/img/work-victory.jpg" alt="Victory">
-                        </div>
-                        <p class="slider--item-title">Victory</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                          sed do.</p>
-                      </a>
-                    </li>
-                    <li class="slider--item slider--item-center">
-                      <a href="#0">
-                        <div class="slider--item-image">
-                          <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
-                        </div>
-                        <p class="slider--item-title">Metiew &amp; Smith</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                          sed do.</p>
-                      </a>
-                    </li>
-                    <li class="slider--item slider--item-right">
-                      <a href="#0">
-                        <div class="slider--item-image">
-                          <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                        </div>
-                        <p class="slider--item-title">Alex Nowak</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                          sed do.</p>
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="slider--prev">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                        <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z" />
-                      </g>
-                    </svg>
+            <li>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top" id="EPIC">
+                        <img src="assets/img/EDC.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title" style="font-size: 1.2rem; font-weight: bold;">ELECTRONICS DESIGN CLUB (EDC)</h3>
+
+
+                      </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/Zerone.JPG" alt="" style="margin-top: 10%;">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title" style="font-size: 1.2rem; font-weight: bold;">ZERONE CLUB</h3>
+
+
+                      </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top EPIC2" id="EPIC">
+                        <img src="https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg"  style="margin-top: 10%;" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title" style="font-size: 1.2rem; font-weight: bold;">ENTREPRENEURSHIP & INVESTMENT CLUB (EPIC)</h3>
+
+
+                      </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top" id="EPIC">
+                        <img src="assets/img/IDC.png"  style="margin-top: 10%;" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title" style="font-size: 1.2rem; font-weight: bold;">INDUSTRIAL DESIGN CORNER (IDC)</h3>
+
+
+                      </div>
+                </div>
+            </li>
+            <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="assets/img/SAE.png"  style="margin-top: 15%;" alt="">
                   </div>
-                  <div class="slider--next">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                        <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
-                      </g>
-                    </svg>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title" style="font-size: 1.2rem; font-weight: bold;">SAE - INGENIUM CLUB</h3>
+
+
+                    </div>
+              </div>
+          </li>
+          <li>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                    <img src="https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg"  style="margin-top: 10%;" alt="">
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title" style="font-size: 1.2rem; font-weight: bold;">CS CLUB</h3>
+
+
                   </div>
-                </div>
+            </div>
+        </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+    </div>
+
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+</div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2 style="color:white;">WORKSHOPS</h2>
+                <!--<a href="#0">Career
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a> -->
+                <img src="assets/img/about-visual.png" alt="About Us">
               </div>
-            </li>
-            <li class="l-section section">
-              <div class="about">
-                <div class="about--banner">
-                  <h2>We<br>believe in<br>passionate<br>people</h2>
-                  <a href="#0">Career
-                    <span>
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                        <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                          <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
-                        </g>
-                      </svg>
-                    </span>
-                  </a>
-                  <img src="assets/img/about-visual.png" alt="About Us">
-                </div>
-                <div class="about--options">
-                  <a href="#0">
-                    <h3>Winners</h3>
-                  </a>
-                  <a href="#0">
-                    <h3>Philosophy</h3>
-                  </a>
-                  <a href="#0">
-                    <h3>History</h3>
-                  </a>
-                </div>
+              <div class="about--options">
+                <a href="#0">
+                  <h3 style="z-index: 10; left:0; padding-left: 5px; background-color: rgba(0, 0, 0, 0.7); color:white;">Automotive Design Workshop</h3>
+                  
+                </a>
+                <a href="#0">
+                  <h3 style="left:0; max-width: 100%; background-color: rgba(0, 0, 0, 0.7); color:white;">Electric Go-Cart</h3>
+                </a>
+                <a href="#0">
+                  <h3 style="left:0; background-color: rgba(0, 0, 0, 0.7); color:white;">Intro to Automobile Engineering Simulations</h3>
+                </a>
+                
+                <!-- <a href="#0">
+                    <h3 style="color:white;">Winners</h3>
+                </a> -->
               </div>
-            </li>
+            </div>
+          </li>
+          
             <li class="l-section section">
               <div class="contact">
                 <div class="container">
@@ -421,18 +464,20 @@
         </div>
       </div>
     </div>
-    <ul class="outer-nav">
-      <li class="is-active">Home</li>
-      <li>Works</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Hire us</li>
-    </ul>
-  </div>
+ 
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Events</li>
+    <li>Workshops</li>
+    <li>Contact</li>
+    <li>Hire us</li>
+  </ul>
+</div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-  <script src="assets/js/functions-min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+
 </body>
 
 </html>
