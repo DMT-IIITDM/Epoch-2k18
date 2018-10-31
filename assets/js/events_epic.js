@@ -46,6 +46,16 @@ var Modal = (function() {
       moveTrig(self, modal, div);
     }
   };
+      document.getElementById("bid").onclick=function(){
+      location.href = "https://docs.google.com/forms/d/e/1FAIpQLSc-wAw6pOk_WcT3qMwP4fXuj_MZ5Dga4Hr8ZKaswwZJFYDy4A/viewform";
+    };
+    document.getElementById("sell").onclick=function(){
+      location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdsPN-tgKcJR5jE99IUao43wXrUDW8iMF5KdXbbNVwuALSM1Q/viewform";
+    };
+    document.getElementById("pitch").onclick=function(){
+      location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeh-bINX2xCl1On1YBb8N_6NIR6kKe-3pSU3iksj0GRwhw9yw/viewform";
+    };
+    
 
   var moveTrig = function(trig, modal, div) {
     var trigProps = trig.getBoundingClientRect();
