@@ -877,7 +877,8 @@ body {
 
 .intro--options h3 {
 	font-size: 16px;
-	text-transform: uppercase
+	text-transform: none !important;
+	/* text-transform: uppercase */
 }
 
 .intro--options p {
@@ -1916,6 +1917,6 @@ body {
 }
 
 .uk-light .uk-slidenav{
-	color: rgba(0,0,0,1) !important;
+	color: rgba(255,255,255,1) !important;
 }
 
