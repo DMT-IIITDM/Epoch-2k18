@@ -1,11 +1,11 @@
-#wrapper {
-    width: 20rem; 
-    height: 60px;
-    border: 2px solid rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255,255,255);
+#wrap {
+    width: 20rem !important; 
+    height: 60px !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: rgb(255,255,255) !important;
   }
   
   #butn {
@@ -35,4 +35,16 @@
     align-items: center;
     justify-content: center;
     /*whatever width you want*/
+  }
+
+  #sched{
+    background-image: url();
+  }
+
+  @media (max-width: 600px){
+    .inner{margin-top: 50%;}
+  }
+
+  @media (min-width: 700px) and (max-width: 1440px){
+    .inner{margin-top: 30%;}
   }
