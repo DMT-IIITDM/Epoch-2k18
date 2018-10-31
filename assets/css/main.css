@@ -1911,6 +1911,7 @@ body {
 .outer-nav li.is-vis:nth-child(5) {
 	-webkit-transition-delay: .16s;
 	transition-delay: .16s
+	
 }
 
 .uk-dotnav>.uk-active>* {

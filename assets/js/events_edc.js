@@ -46,6 +46,15 @@ var Modal = (function() {
       moveTrig(self, modal, div);
     }
   };
+        document.getElementById("circ").onclick=function(){
+      location.href = "https://goo.gl/forms/1ldNAra2wZmTKyjh1";
+    };
+    document.getElementById("eureka").onclick=function(){
+      location.href = "https://goo.gl/forms/xtSww44DYWTxH9qD3";
+    };
+    document.getElementById("explo").onclick=function(){
+      location.href = "https://goo.gl/forms/qn3WT0fQa4DNttP92";
+    };
 
   var moveTrig = function(trig, modal, div) {
     var trigProps = trig.getBoundingClientRect();
