@@ -46,6 +46,7 @@ var Modal = (function() {
       moveTrig(self, modal, div);
     }
   };
+  
   document.getElementById("linef").onclick=function(){
     location.href = "https://goo.gl/forms/CM8mi4M8aAB7FQIB3";
   };

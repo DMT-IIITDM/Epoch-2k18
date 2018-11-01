@@ -46,7 +46,13 @@ var Modal = (function() {
         moveTrig(self, modal, div);
       }
     };
-  
+
+    document.getElementById("ansysworkshop").onclick=function(){
+      location.href = "https://goo.gl/forms/ggJ5jBot5g37aLmi1";
+    };
+
+
+    
     var moveTrig = function(trig, modal, div) {
       var trigProps = trig.getBoundingClientRect();
       var m = modal;
