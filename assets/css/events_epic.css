@@ -139,7 +139,7 @@ tr:nth-child(even) {
    */
   body {
 	height: 100vh;
-	background-image:url(../img/epic.jpg);
+	background-image:url(../img/events-img/epic.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
