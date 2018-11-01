@@ -53,6 +53,9 @@ var Modal = (function() {
   document.getElementById("tugofwar").onclick=function(){
     location.href = "https://goo.gl/forms/UR813O6Gv0xjHCsr2";
   };
+ document.getElementById("jwars").onclick=function(){
+    location.href = "https://goo.gl/forms/mXwANp97aUWuRRvl1";
+  };
 
   var moveTrig = function(trig, modal, div) {
     var trigProps = trig.getBoundingClientRect();
