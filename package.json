@@ -1,0 +1,24 @@
+{
+  "name": "Epoch-2k18",
+  "version": "1.0.0",
+  "description": "### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMT-IIITDM/Epoch-2k18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DMT-IIITDM/Epoch-2k18/issues"
+  },
+  "homepage": "https://github.com/DMT-IIITDM/Epoch-2k18#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
