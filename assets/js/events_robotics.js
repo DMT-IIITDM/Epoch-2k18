@@ -47,10 +47,10 @@ var Modal = (function() {
     }
   };
   document.getElementById("linef").onclick=function(){
-    location.href = "https://chat.whatsapp.com/L7KpHDVGxx3AFJyO0mxOKN";
+    location.href = "https://goo.gl/forms/CM8mi4M8aAB7FQIB3";
   };
   document.getElementById("tugofwar").onclick=function(){
-    location.href = "https://chat.whatsapp.com/IGrGVWzGVsb0G7gL3MJmFL";
+    location.href = "https://goo.gl/forms/UR813O6Gv0xjHCsr2";
   };
 
   var moveTrig = function(trig, modal, div) {
