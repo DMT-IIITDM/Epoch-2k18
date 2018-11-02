@@ -136,7 +136,7 @@ tr:nth-child(even) {
    */
   body {
 	height: 100vh;
-	background-image:url(../img/robotics.jpg);
+	background-image:url(../img/events-img/robotics.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
