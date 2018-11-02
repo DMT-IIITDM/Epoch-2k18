@@ -57,6 +57,7 @@ var Modal = (function() {
     location.href = "https://goo.gl/forms/mXwANp97aUWuRRvl1";
   };
 
+
   var moveTrig = function(trig, modal, div) {
     var trigProps = trig.getBoundingClientRect();
     var m = modal;
